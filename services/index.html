@@ -1,0 +1,57 @@
+---
+layout: default
+title: Services
+---
+
+  	<img class="full-width" src="/assets/images/servicesbanner.jpg" alt="Services Joy offers" />
+
+    <h1>{{ page.title }}</h1>
+
+    <div class="services">
+
+	    <div class="service left alpha">
+	    	<h3>Audience Configuration</h3>
+			<p>Joy works with any combination of educators, to meet the identified goals of a school or district.  Based on these goals, she can present to whole staffs, grade level groups, individual teachers, or a combination of audience configurations.</p>
+		</div>
+
+		<div class="service left">
+	    	<h3>Strategic Planning</h3>
+			<p>Working with leadership teams and administrators, Joy facilitates the identification of instructional and curricular targets.  This results in a professional development plan that meets the current needs of both teachers and students.</p>
+		</div>
+
+		<div class="service left omega">
+	    	<h3>Timing Options</h3>
+			<p>Each school or district is unique in specific needs and concerns.  There are a number of options available when considering the professional development when Joy works with educators.  Due to the unfortunate trend in education to bring in too many initiatives, and different ones each year, teachers have the mentality of “this too shall pass”.  Successful staff development is thoughtful, on-going, and consistent.  (Transforming Professional Development into Student Results Reeves 2010,) An assessment the teacher needs and expertise determines the amount and duration of in-services or coaching.</p>
+
+			<h4>Possible Options Include:</h4>
+			<ul>
+				<li>All staff training (one-time basis)</li>
+				<li>Facilitative training and coaching throughout the year to develop long-term success and efficacy</li>
+			</ul>
+		</div>
+
+		<blockquote class="service-quote">
+			<p>“I highly recommend Joy Wenke as a trainer! She is a dynamic presenter, and her years of school experience, especially with English Learners, make her a valuable resource to teachers and administrators alike. Joy is providing our professional development district-wide. She works collaboratively with me to design the course that best meets the particular needs of my district (not a “canned” presentation). The teachers thank me for bringing Joy to our district!”</p>
+
+			<p>Lonna Martinez<br />
+			Director, Educational Services, Hollister School District</p>
+		</blockquote>
+
+	</div>
+
+	<p class="clear">Teacher trainings are customized to the times available for professional development and the audience.  The descriptions are a reference point for discussing your school’s instructional and curricular needs and can be altered to better meet your goals.</p>
+
+	<dl class="accordion">
+		
+		{% for accordion in site.data.accordions %}
+			<dt><a href="">{{ accordion.title }}</a></dt>
+			<dd>
+				<ul>
+					{% for bullet in accordion.bullets %}
+						<li>{{ bullet.text }}</li>
+					{% endfor %}
+				</ul>
+			</dd>
+		{% endfor %}
+
+	</dl>

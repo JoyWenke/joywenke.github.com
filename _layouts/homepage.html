@@ -1,0 +1,36 @@
+---
+layout: master
+---
+
+<section class="slider">
+  <ul>
+		{% for slide in site.data.slides %}
+	    <li>
+	      <img src="{{ slide.image }}" />
+	      <div class="slider-text">
+	        <h1>{{ slide.text }}</h1>
+	      </div>
+	    </li>
+		{% endfor %}
+  </ul>
+</section>
+
+<section role="main">
+
+  {{ content }}
+
+	<footer>
+	<p>Copyright &copy; 2013 JoyWenke.com</p>
+
+	<nav class="footer-navigation">
+		<ul>
+	    <li><a href="/">Home</a></li>
+	    <li><a href="/services">Services</a></li>
+	    <li><a href="/about">About</a></li>
+	    <li><a href="/contact">Contact</a></li>
+	  </ul>
+	</nav>
+
+	</footer>
+
+</section>
