@@ -20,3 +20,7 @@ safe: true
 # match github pages config.
 lsi: false
 pygments: true
+
+prose:
+  siteurl: "http://joywenke.github.io/"
+  media: "assets/images"
