@@ -11,10 +11,12 @@ title: Who is Joy Wenke
     </div>
 
     <blockquote class="about-quote">
-    	<p>Working with Joy is always a good idea.  The depth and breadth of her knowledge make it so she always has useful, pertinent information to share, and her warm personality and caring attitude make it personally relevant and memorable.  If you have the opportunity to learn from Joy, grab it with both hands – you won’t regret it!</p>
+    	{% for testimonial in site.data.aboutquotes %}
+			<p>{{ testimonial.quote }}</p>
 
-		<p>Vanessa Thurmond<br />
-		Elementary teacher and District Coach</p>
+			<p>{{ testimonial.name }}<br />
+			{{ testimonial.title }}</p>
+		{% endfor %}
     </blockquote>
 
     <h3>Consulting and Presenting Opportunities</h3>
