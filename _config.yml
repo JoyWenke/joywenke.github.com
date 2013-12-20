@@ -24,3 +24,4 @@ pygments: true
 prose:
   siteurl: "http://joywenke.github.io/"
   media: "assets/images"
+  rooturl: '_data'
