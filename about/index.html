@@ -33,10 +33,9 @@ title: Who is Joy Wenke
 	<div class="one-third">
 		<h3>National and Local Presentations</h3>
 		<ul>
-			<li>California Association for Bilingual Educator Conferences</li>
-			<li>Thinking Maps® International Conferences</li>
-			<li>Ophelia Project International Conferences</li>
-			<li>Academic Success Conferences for English Language Learners</li>
+			{% for presentation in site.data.presentations %}
+				<li>{{ presentation }}</li>
+			{% endfor %}
 		</ul>
 	</div>
 
@@ -44,14 +43,9 @@ title: Who is Joy Wenke
 		<h3>Past/Current Clients, Presentations, and Affiliations</h3>
 		<p>A partial list includes:</p>
 		<ul>
-			<li>California Association of Bilingual Educators</li>
-			<li>Association for Supervision and Curriculum Development</li>
-			<li>Thermalito School District</li>
-			<li>Hollister School District</li>
-			<li>Union School District</li>
-			<li>Moreland School District</li>
-			<li>EA Hall Middle School, Watsonville, CA</li>
-			<li>Milpitas Unified School District</li>
+			{% for client in site.data.clients %}
+				<li>{{ client }}</li>
+			{% endfor %}
 		</ul>
 	</div>
 
