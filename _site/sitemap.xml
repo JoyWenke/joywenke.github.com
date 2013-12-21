@@ -6,7 +6,7 @@
     
     
     <url>
-        <loc>http://foo.com/about/</loc>
+        <loc>http://www.joywenke.com/about/</loc>
     </url>
     
     
@@ -14,7 +14,7 @@
     
     
     <url>
-        <loc>http://foo.com/assets/</loc>
+        <loc>http://www.joywenke.com/assets/</loc>
     </url>
     
     
@@ -22,7 +22,7 @@
     
     
     <url>
-        <loc>http://foo.com/blog/</loc>
+        <loc>http://www.joywenke.com/contact/</loc>
     </url>
     
     
@@ -30,7 +30,7 @@
     
     
     <url>
-        <loc>http://foo.com/contact/</loc>
+        <loc>http://www.joywenke.com/</loc>
     </url>
     
     
@@ -38,15 +38,7 @@
     
     
     <url>
-        <loc>http://foo.com/</loc>
-    </url>
-    
-    
-    
-    
-    
-    <url>
-        <loc>http://foo.com/services/</loc>
+        <loc>http://www.joywenke.com/services/</loc>
     </url>
     
     
