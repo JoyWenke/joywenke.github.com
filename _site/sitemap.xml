@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+
+    
+    
+    
+    <url>
+        <loc>http://foo.com/about/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://foo.com/assets/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://foo.com/blog/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://foo.com/contact/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://foo.com/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://foo.com/services/</loc>
+    </url>
+    
+    
+    
+    
+    
+</urlset>
